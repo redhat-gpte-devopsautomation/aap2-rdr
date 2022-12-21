@@ -1,0 +1,14 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: external-databse
+  namespace: aap
+data:
+  database: YXd4
+  host: cG9zdGdyZXNxbC5hYXAuc3ZjLmNsdXN0ZXIubG9jYWw=
+  password: cmVkaGF0QDEyMw==
+  port: NTQzMg==
+  sslmode: ZGlzYWJsZQ==
+  type: dW5tYW5hZ2Vk
+  username: YXd4
+type: Opaque

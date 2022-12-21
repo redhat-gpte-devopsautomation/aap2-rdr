@@ -1,0 +1,13 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: postgres-13-ac-postgres-13-0
+  namespace: aap
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 8Gi
+  storageClassName: ocs-storagecluster-ceph-rbd
+  volumeMode: Filesystem
