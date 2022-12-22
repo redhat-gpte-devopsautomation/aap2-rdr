@@ -8,8 +8,8 @@ spec:
   create_preload_data: true
   route_tls_termination_mechanism: Edge
   init_container_extra_commands: |
-    until getent hosts postgresql.aap.svc.cluster.local
-    do echo waiting for postgresql.aap.svc.cluster.local
+    until getent hosts postgresql.ansible-automation-platform.svc.cluster.local
+    do echo waiting for postgresql.ansible-automation-platform.svc.cluster.local
     sleep 2
     done
   garbage_collect_secrets: false
